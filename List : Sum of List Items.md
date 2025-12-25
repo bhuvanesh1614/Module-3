@@ -9,12 +9,19 @@ To write a Python program that calculates the **sum of all elements** in a list.
 3. Print the result.
 
 ## 🧾 Program
-```
-items=[153,147,124,102]
-print(sum(items))
-```
 
+```
+def createlist(n):
+    l=[]
+    for i in range(2,n):
+        if i%2==0:
+            l.append(i)
+    print("List =",l)
+    print("Sum of the list = ",sum(l))
+
+```
 ## Output
-![Screenshot 2025-04-29 120233](https://github.com/user-attachments/assets/c459f7ba-80e3-4ba0-8dfc-fe6e998a5a2b)
+![444868357-707d0836-85eb-4ab5-802b-5bc9a6521f8f](https://github.com/user-attachments/assets/fa81b263-752d-443f-9280-77481df2e42b)
+
 ## Result
 Thus, the python program was executed successfully.
